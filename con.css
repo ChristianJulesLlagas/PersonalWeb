@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: black;
+	color: white;
+}
+
+header{
+	background-color: white;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+
+ul li a:hover{
+	transition: 0.5s ease;
+	background-color: white;
+	color: black;
+}
+
+.active a{
+	background-color: white;
+	color: black;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.fb img{
+	position: absolute;
+	border-radius: 30px;
+	height: 300px;
+	top: 35%;
+	left: 10%;
+}
+
+.insta img{
+	position: absolute;
+	border-radius: 30px;
+	height: 300px;
+	top: 35%;
+	left: 40%;
+}
+
+.yt img{
+	position: absolute;
+	border-radius: 30px;
+	height: 300px;
+	top: 35%;
+	left: 70%;
+}
+
+iframe{
+	border-radius: 30px;
+	position: absolute;
+	top: 100%;
+	left: 20%;
+}
